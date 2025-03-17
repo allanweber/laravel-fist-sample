@@ -2,3 +2,22 @@
 
 ```composer run dev```
 
+```php artisan make:view orders```
+
+```php artisan make:controller OrderController```
+
+```php artisan make:migration create_orders_table```
+
+```php artisan migrate```
+
+```bash
+php artisan tinker
+User::factory()->create()
+```
+
+```bash
+php artisan tinker
+App\Models\User::first()
+```
+
+```php artisan make:model Order```
